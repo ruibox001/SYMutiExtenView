@@ -15,6 +15,8 @@
 		F1B9CB711D3F281600DBAF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B9CB6F1D3F281600DBAF10 /* LaunchScreen.storyboard */; };
 		F1B9CB7C1D3F281600DBAF10 /* SYMutiExtenViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9CB7B1D3F281600DBAF10 /* SYMutiExtenViewTests.m */; };
 		F1B9CB871D3F281600DBAF10 /* SYMutiExtenViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9CB861D3F281600DBAF10 /* SYMutiExtenViewUITests.m */; };
+		F1B9CB991D3F288E00DBAF10 /* SYMutiExtenProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9CB961D3F288E00DBAF10 /* SYMutiExtenProgressView.m */; };
+		F1B9CB9A1D3F288E00DBAF10 /* SYMutiExtenView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9CB981D3F288E00DBAF10 /* SYMutiExtenView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F1B9CB821D3F281600DBAF10 /* SYMutiExtenViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYMutiExtenViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B9CB861D3F281600DBAF10 /* SYMutiExtenViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMutiExtenViewUITests.m; sourceTree = "<group>"; };
 		F1B9CB881D3F281600DBAF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B9CB951D3F288E00DBAF10 /* SYMutiExtenProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMutiExtenProgressView.h; sourceTree = "<group>"; };
+		F1B9CB961D3F288E00DBAF10 /* SYMutiExtenProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYMutiExtenProgressView.m; sourceTree = "<group>"; };
+		F1B9CB971D3F288E00DBAF10 /* SYMutiExtenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMutiExtenView.h; sourceTree = "<group>"; };
+		F1B9CB981D3F288E00DBAF10 /* SYMutiExtenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYMutiExtenView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		F1B9CB601D3F281500DBAF10 /* SYMutiExtenView */ = {
 			isa = PBXGroup;
 			children = (
+				F1B9CB941D3F288E00DBAF10 /* SYMitiExtenViews */,
 				F1B9CB641D3F281500DBAF10 /* AppDelegate.h */,
 				F1B9CB651D3F281500DBAF10 /* AppDelegate.m */,
 				F1B9CB671D3F281500DBAF10 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				F1B9CB881D3F281600DBAF10 /* Info.plist */,
 			);
 			path = SYMutiExtenViewUITests;
+			sourceTree = "<group>";
+		};
+		F1B9CB941D3F288E00DBAF10 /* SYMitiExtenViews */ = {
+			isa = PBXGroup;
+			children = (
+				F1B9CB951D3F288E00DBAF10 /* SYMutiExtenProgressView.h */,
+				F1B9CB961D3F288E00DBAF10 /* SYMutiExtenProgressView.m */,
+				F1B9CB971D3F288E00DBAF10 /* SYMutiExtenView.h */,
+				F1B9CB981D3F288E00DBAF10 /* SYMutiExtenView.m */,
+			);
+			path = SYMitiExtenViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 				F1B9CB691D3F281500DBAF10 /* ViewController.m in Sources */,
 				F1B9CB661D3F281500DBAF10 /* AppDelegate.m in Sources */,
 				F1B9CB631D3F281500DBAF10 /* main.m in Sources */,
+				F1B9CB991D3F288E00DBAF10 /* SYMutiExtenProgressView.m in Sources */,
+				F1B9CB9A1D3F288E00DBAF10 /* SYMutiExtenView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

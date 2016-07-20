@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SYMutiExtenProgressView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"iOS Ripple Background";
+    
+    CGFloat radius = 100;
+    SYMutiExtenProgressView *exView = [SYMutiExtenProgressView shareMutiExtenProgressViewWithFrame:CGRectMake((self.view.frame.size.width-radius*2)*0.5, 200, radius*2, radius*2) extenCount:8 extenColorWithRGB:0xeaa9ff];
+    [self.view addSubview:exView];
+    
+    [exView startAnimation];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
